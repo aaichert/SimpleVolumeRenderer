@@ -1,5 +1,5 @@
 #include <GetSetGui/GetSetGui.h>
-#include "QVolumeRenderer.h"
+#include <LibSimple/QVolumeRenderer.h>
 
 GetSetGui::Application g_app("VolumeRendering");
 

@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.2.2)
 
 # Create a new solution
-project(SimpleGraphics)
+project(SimpleVolumeRenderer)
 
 # Define add_subproject and add_package to create XXConfig.cmake and XXConfigVersion.cmake
 include(cmake_scripts/add_package.cmake)

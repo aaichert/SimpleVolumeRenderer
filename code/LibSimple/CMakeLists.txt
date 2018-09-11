@@ -13,6 +13,6 @@ add_library(LibSimple STATIC
 qt5_use_modules(LibSimple Gui OpenGL)
 
 install(FILES GL/glad.h DESTINATION include/LibSimple/GL )
-install(FILES SimpleMHD.h SimpleGL.h SimpleVR.h SimpleRayCastPass.h DESTINATION include/LibSimple)
+install(FILES QVolumeRenderer.h SimpleMHD.h SimpleGL.h SimpleVR.h SimpleRayCastPass.h DESTINATION include/LibSimple)
 install(TARGETS LibSimple DESTINATION lib EXPORT LibSimple-targets)
 install(EXPORT LibSimple-targets DESTINATION cmake)
