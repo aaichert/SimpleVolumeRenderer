@@ -1,0 +1,5 @@
+NDims = 3
+DimSize = 256 256 512
+ElementSpacing = 0.78125 0.390625 1
+ElementType = MET_UCHAR
+ElementDataFile = carp.raw
